@@ -1,0 +1,20 @@
+set up error pages
+
+set up redirects for randomcolor and typewriter and other projects
+
+write short guide for deploying new projects
+
+work out how to cache properly
+
+add proxying feature
+
+server {
+    listen       8000;
+    server_name tuuuune.localhost tuuune.com;
+    root /var/www/llllll/sites/tuuune/public;
+    error_page   403  = @proxy;
+    try_files $uri index.html $uri/ @proxy;
+    location @proxy {
+        proxy_pass http://localhost:8080;
+    }
+}
