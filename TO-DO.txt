@@ -33,3 +33,7 @@ http {
 if ($http_cf_visitor ~ '{"scheme":"http"}') {
     return 301 https://$server_name$request_uri;
 }
+
+gzip  on;
+gzip_min_length 1000;
+gzip_types text/plain text/css application/json application/x-javascript text/xml application/xml application/xml+rss text/javascript;
