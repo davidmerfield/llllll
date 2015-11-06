@@ -18,3 +18,12 @@ server {
         proxy_pass http://localhost:8080;
     }
 }
+
+
+http {
+
+     open_file_cache max=1000 inactive=300s;
+     open_file_cache_valid 360s;
+     open_file_cache_min_uses 2;
+     open_file_cache_errors off;
+}
