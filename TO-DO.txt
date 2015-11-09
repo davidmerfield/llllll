@@ -1,26 +1,14 @@
-ssh -i ./projects.pem ec2-user@52.10.1.234
-
 set up error pages
-
-set up redirects for randomcolor and typewriter and other projects
 
 write short guide for deploying new projects
 
-work out how to cache properly
+work out how to cache properly... nginx
 
-add proxying feature
+move big file downloads to s3
 
-server {
-    listen       8000;
-    server_name tuuuune.localhost tuuune.com;
-    root /var/www/llllll/sites/tuuune/public;
-    error_page   403  = @proxy;
-    try_files $uri index.html $uri/ @proxy;
-    location @proxy {
-        proxy_pass http://localhost:8080;
-    }
-}
+## useful snippets
 
+ssh -i ./projects.pem ec2-user@52.10.1.234
 
 http {
 
