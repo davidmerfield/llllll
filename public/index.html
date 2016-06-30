@@ -5,103 +5,53 @@
       <meta charset="utf-8">
       <meta name=viewport content="width=device-width,initial-scale=1">
       <link rel="icon" type="image/png" href="/favicon.png">
-      <script src="//use.typekit.net/zzu2cre.js"></script>
-      <script>try{Typekit.load();}catch(e){}</script>
       <style type="text/css">
-      body {-webkit-font-smoothing: antialiased;font-family: "franklin-gothic-urw", helvetica, arial, sans-serif !important;font-size:1.125em;max-width: 340px;margin: 5em auto;padding: 0 0.5em}
-      p {margin-bottom: 2em;position: relative;padding-left: 1.5em}
-      b {font-weight: 600}
-
-      h1 a {text-decoration: none;color:#000;}
-      p a {
-        color: #004984; /* 02569B */
-        text-decoration: none;
-        text-shadow: .03em 0 #fff, -.03em 0 #fff, 0 .03em #fff, 0 -.03em #fff, .06em 0 #fff, -.06em 0 #fff, .09em 0 #fff, -.09em 0 #fff, .12em 0 #fff, -.12em 0 #fff, 0 0.03em #fff, 0 -.03em #fff, 0 .06em #fff, 0 -.06em #fff, 0 .08em #fff, 0 -.08em #fff;
-        background-image: linear-gradient(#fff, #fff), linear-gradient(#fff, #fff), linear-gradient(#2575B6, #2575B6);
-        background-size: 0 0,0 0,0.07em 0.07em;
-        background-repeat: no-repeat, no-repeat, repeat-x;
-        background-position: 0% 90%, 100% 90%, 0% 91%;
-      }
-
-      header a em,
-      footer a em {
-        background-image: linear-gradient(#fff, #fff), linear-gradient(#fff, #fff), linear-gradient(#A3A8B0, #A3A8B0);
-      }
-
-      p a:hover {
-        color: #468CC7;
-        background-image: linear-gradient(#fff, #fff), linear-gradient(#fff, #fff), linear-gradient(#5599D2, #5599D2);
-      }
-
-      p a::selection {
-        background: #b3d4fd;
-        text-shadow: .03em 0 #b3d4fd, -.03em 0 #b3d4fd, 0 .03em #b3d4fd, 0 -.03em #b3d4fd, .06em 0 #b3d4fd, -.06em 0 #b3d4fd, .09em 0 #b3d4fd, -.09em 0 #b3d4fd, .12em 0 #b3d4fd, -.12em 0 #b3d4fd;
-      }
-
-      p a::-moz-selection {
-        background: #b3d4fd;
-        text-shadow: .03em 0 #b3d4fd, -.03em 0 #b3d4fd, 0 .03em #b3d4fd, 0 -.03em #b3d4fd, .06em 0 #b3d4fd, -.06em 0 #b3d4fd, .09em 0 #b3d4fd, -.09em 0 #b3d4fd, .12em 0 #b3d4fd, -.12em 0 #b3d4fd;
-      }
-      pre {position: absolute;right: 3em}
-      .logo {width:0.9em;height:0.9em;position: absolute;left: 0.1666em;top: 0.15em}
+      body {font-family: sans-serif;font-size:20px;padding: 3em 6em}
+      a:hover {text-decoration: none;}
+      a {color: blue}
+      h1 a {text-decoration: none;color:black;}
+      .logo {display: inline-block;width: 1em;height: 1em;margin: 0.075em 0.5em 0 0;float: left;}
+      p{margin: 1.3333em 0}
       </style>
    </head>
    <body>
 
-    <h1 style="text-align:center"><a href="http://twitter.com/davidmerfieId">llllll</a></h1><br />
-    <!-- <p><a href="mailto:dmerfield@gmail.com">Email me</a> &nbsp; <a href="data:text/plain;base64,LS0tLS1CRUdJTiBQR1AgUFVCTElDIEtFWSBCTE9DSy0tLS0tDQpWZXJzaW9uOiBTS1MgMS4xLjQNCg0KbVFJTkJGUlFHZmtCRUFDOFpvTm5DczFZZ2JkTXRIekh3NFB1b01rVHp2VHpRc3M1bTdPYnNEWDZ5SGlJeDl4V2VzRGNYNXJQDQpSd2MxZ0xIdnVmMzZiSk1Edlg5a0YweHF1Q2x0SjkzUko2S2NnUzdMdU1lVHc3VUR5aUlCNE5teFpESHVPTGtpbjhiZ3BSWGcNClpwQTVOVUZLU2JOMW5aYmwrZDdwcEJ1aml3MWlWUXpwUVVzaGlkT1J5cVhLWDQvcE01YnVvSnE5U0lPQTAzRVhkcUlneEtFTw0KK08xaHYvUjIxMzEzL0lYWFJPZVlVRjd6Q0QzdzNFWmpRUmEwWTdXTWRLQUpmTWJuU1REZDVlMTh4YUR1d2syL3NFUVBxVHdVDQo4Z0dGQnpwc3NSR21CN01CSSt5VWJwUm5WOG9HMjFNRTJaYU55UkR1dXFQbE5hMUtSNm4xcEJUTlIvaXArNGdXcDlmNmxFOHYNCm1IWERGMU5wYmNGR0hRd0VmQW12M3Fsd2w2cVRnc1FXTlVJMy91TTdwVjhBTysxeVQvTWxoVmNERUMzSDRaajNwYkxoMnV6cQ0KajdaZS93MjNGTjJnVzVlTmRmWkZPWm5tVUxDTUNOS2dwc0dtT2NpSUc3ZVRHR0xxRDI5TVJ2bTd2cVFrdjExd0FIaUhOazZYDQpYckdab2I5ZWJqdDJKYzNCdWJIQ0R5V00ySFlla1Q0OEo4Yk54SmlscWk0L0IvV0s2MDMvVVdleUZYc0lHNGROOXo3OUk0Z1MNCjM0SUM3Z09NSXdiLzM2M0VYUzVrMzFCUFhUT0FDbS9EcFR3alN2T2xZZkE3cDk1ZXA1Tm11ZG1MaVZyVy8yc1ZIV3AveGZXSA0KaG5MUEcweHNVbUlYYnd2STJPa0RORHF5NmFNQkpmb2FDQUV0ejBLc3ZNZGZ1TWJqWlFBUkFRQUJ0Q1JFWVhacFpDQk5aWEptDQphV1ZzWkNBOFpHMWxjbVpwWld4a1FHZHRZV2xzTG1OdmJUNkpBUndFRUFFQ0FBWUZBbFJ0amRvQUNna1F5VDJsQ1NPOG9Bcm4NClBRZ0FzZzBMWG9kbHpzWjB1NHpvNWsxaHhVWFZnbE9JY1pOb0pBaTdjMDZ6VWNoY2QwUWVCaVE3TzJqUnRkaXI5VzdjS0d1Wg0KY2sydlA5UmpFUk45bE5qVlY1RHNLWTNmQi9VdUJFSnhGSlNNR2ZLY2RMb3I5alZPUGNXSlRmUWR4Sy94RmViSXdqcUY4eVVNDQpuNk15Z2xHSHZyQWJCcFVGRUtiNUJaMWhtdXk3VmdNcjZRTW9BYlRoUklsbXBKeXdQdENkTjg5d3FMLzZSQjBnQmYyb3VYVzYNCnF6RnFKbmxTdmR1eVpwcnhES2hHbDJXUWF0eUdvdzRGSFBOZjYrb1hwYUt3ZVh0V3RJdmZiN3FBRjhhVEg5RlQ3dTd4dDBSVQ0KWDBSemRIN0JFaVRUNjFrWVVrR1NaSzA5L29Zei85bG5GVE53Rm5sOFVHNnh5NnJadmpDVWtibzZjWWtDUFFRVEFRb0FKd1VDDQpWRkFaK1FJYkF3VUpBZUV6Z0FVTENRZ0hBd1VWQ2drSUN3VVdBZ01CQUFJZUFRSVhnQUFLQ1JDK3BsR1ZUeWs1RGMzeEVBQ3cNCjAxM29PMCtvam1wYzBta0p1QkdoemU5ZEFSYnNOYU85dWZoamJSVnZVL3BUYnlaUDlGNE9LbkpBc3FnajB4VGhiQnA5TXZaNQ0KZE1UbkFYdjhIYnF3SnBpUHdLbHhIN0Y1eFhZN1BCVjZqcTlyYVpFSDB6WlYySmVTc05BQ0VwMGdjeDhkR053Z1hDOXhJc2llDQpNZXVVUDhidVZHdDBNbmFqU09tUXpodk90L053UkxyNXc4Rmw1QVpoK1A0OXpNZjBoRW1FNEF1WWhuTDJ3eVhLejhaaEdaSGgNCjFXR2VlSkdqdVZSdUpWcXZNdzY0SU5Tam9taGR2Y2lLbnZFWFI2MFE4VkFaZE14aCtzVUwxNzdRQ2hKVkZCRHRuLzFNT2FMbg0KL2src04vMjNwWXNWZ0d4S1NWSU1sdUljRzNENFhJQXhsRkllU3dDa01LWmw2UnFHbzB6VjR4NFJBNno0ZG1LV2g3Wk5XQmFCDQp5TnBJOVJRa2hRcXE2Z2cxK0NTc0poMjJnd2dkSXpZRXJMVDlSbEY0dzJFR20zRDFYLzE0Ykh0WTFoTUNkQVIxVm1HTUdTMDUNCnlHQ3c2WXMxQ21RR25peUxNbDBIRzhGcjhMNDFjS1l3eFpSWldienJKV2VuL2d5UTVsTWUwMmY3MWswYlNJMG15bDJlbE5Hcg0KZ0RGZStxTFV6WGxMRUZTSFppanF0Z1BxNHUwRjdNbGYvOFNma3hYOEVGSlVndFNaalhzRTlsb2R1K3ZncllmRUVqWTA1K1VlDQpsN2UyNTI0NTRCTmZVN0R2ZDJDWStXZU1IV1gycnMzTmhFeC9QVlBZd0pRRnF4Q1RnU0ZOQ0lickwzd3VQVFhMZnAzVC91cFENCnBxeHAwYTlzNVl4a3hoQnVMV2Mzb0lmYy9JbGxlMzRQUDdrQ0RRUlVVQm41QVJBQXM3bFNYcnJUL1BNemxTK1hyVGpNR092MQ0KdHJPejQ0emdxMkVQZVRUQ1EvNTJYRmhLcmZKSDYrdnlKbnZRTllYeW9FUmtSeW5EazdPR29ZcTBrdks4ZGVlK2xvMzJjTzZ4DQpKdFdUVG83ME1xdnhvalYvalluY0tHZTBjU2xmSnVqTjhMMnBibmszakUrZjVPeTNDa29McDVCSDEyWG52U0FRcGwxbEVyYWENCmNPcUpxYWdLRDZZSGZZMTNQdWVJWklUQTdELzdkNzBXekZJeXVIYW0vdHQrcFNoTXVzWHByZC9SU1FtK1N5RzZLWU9XQnhibQ0KNEY0N0RKVnF4WWFmSW5icVdNNzVMeGp5Umg5OVhNcjRFaXNBK2l6U2R0UGwxamZ5U3NXTzBEeXdORjI4bGxLT1ZUUW1pWnhzDQo5M05Id3IvTGNacU1aeHpHQjRZOSswNlg0bW01QUhjbkl6dEFUemdmOXlNRk5adnRibURzeGlxczdUTlRzSU9PbU1Ld2phNWENCjRHQlNQcXNqaVJ0aUpXUit3VWE2QU44SmdaMlJPZWZkSVN6cFFDVXFIRlY3TVJ3K3FyQ0hma2pVRWhCeUlpQXd6a0ZuMHE3Yg0KL0l0K2VsU3RYUHRMVWFMbG5naWlXWnRHOTdOdm9xNFp4UVhCWitYdkwvMkVSZzV6UEdGcTA3N1JiS3FyTmZWYXBBeXNsNDlvDQpmQzZOUHk2YTloUDZlSDFaR3ljNkVmUG93UG1PMndZdm0ycEprTlZRbEVKZWl4ZnlBRWo3UlFObXVzWjVWOXgvYzFSbnV2cW8NCnhCeDdJUG9qdEpVRkpVeFE2UzQ5eVVpOGhPRGtMaXNzd0Rack0vaWFTamlHcVdBWEdwMTJwTjJ3YXBkSk1LeWdrREpNdzBnTA0KNzV5Z2sxUVBjMkVBRVFFQUFZa0NKUVFZQVFvQUR3VUNWRkFaK1FJYkRBVUpBZUV6Z0FBS0NSQytwbEdWVHlrNURYVWhELzBmDQpnWGRxYmszMFJ3cXV5TWU5c2pkZ2NLWjZGVVRrYk1pSkd0VzFtc3dpOGxHZE1aSFQ1UnBsdndBeVBCYjA5WHIyWXBKeWJoRlINCnlIMVZHdG5KNE0zQ0lZd2tnU2g3UHBMMGl2YlBsWG1TanovVGE0QzhJVURsSEpUZys2L0lTcVB0Nm1wSWxMQnlZMEcxUzFHSA0KRnJxOXA4QzFHOW9CSHdZZEZabmlGOS8rYk5XazFjYkFhWEdKV1NVUnhrbXRuY1FlTThDZ1o3TWxzL3BVMFY4VmNuVEthemN6DQpDY2o4WjJtSWRMU0luZHRlVUVnK0NCdWVsZnM1QVJyMXZJMXd0MTVxRmdTLzU4dHgrczVYa0NsVUR5aDZhUm5EbGNmbncvOWMNCmNGejYyTFEyN2s0RFI1R2cvSm1rSTdWc2ZQOEJXSjNObFdhUU9YSzRxSEhUR2R6QzBmQ2FsNnJYRDlwbTdEczNrMkpTdEZ0SA0KRm1iSDlFRFdWM043d2dDbEpxSytPd091QXlmcjBmL2UvZkRMM3FZanlBNi9HSURETjBsUnMzL3dOWWVOdHNLcTU5QTNLUnhqDQorajVQN0pRQ1FDUXpTZnRWUU9iN1RqdlNSb0FNUWIxMmhGdWlLOEFPL0JMK1ZDNXNIaWdveU9Vb1NaVmp4emxieUFsTTNaUXENClIxOVFIRUJnY2M4Sm5UY05pYldTOUZsVnp5dE1ET2lOR0Q3cVJlbEZ2NlFQMExrZDM4eWpWZFA2SmlwRWdIVm5qVm5UNFVpYw0KOTVIWXJsdjRBUGN1WVJFanMzV2Zrd1dSeHVibW1NOFBXU1VnYXI2RG5UY1cvQSt2VnBiSkdzRUNORDl0bkNTZjBwTmNlcGNuDQprdEk1ZjhLU2NUTVhXYm1qTFF1UDhodjNQSHJIcm5JOGN3PT0NCj1vNG54DQotLS0tLUVORCBQR1AgUFVCTElDIEtFWSBCTE9DSy0tLS0t">
-            PGP key</a> &nbsp; <a href="https://github.com/davidmerfield">GitHub</a> &nbsp; <a href="https://twitter.com/davidmerfieId">Twitter</a>
-    </p> -->
+    <h1><a href="http://twitter.com/lllIIlIlIl" >llllll</a></h1><br />
+
     <p>
       <span class="logo" style="background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNi4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB3aWR0aD0iMTAwcHgiIGhlaWdodD0iOTEuNDZweCIgdmlld0JveD0iMCAwIDEwMCA5MS40NiIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMTAwIDkxLjQ2IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxwYXRoIGZpbGw9IiNGOTQxNDEiIGQ9Ik00OS45OTksOTEuNDZjMy45NDQtMy45NDMsMjYuNDU4LTI2LjQ3MSw0MC41MzMtNDAuNTQzYzEyLjYxLTEyLjYxMSwxMi4zNDEtMzAuOTk0LDAuODc2LTQyLjM5Ng0KCUM3OS45NDMtMi44ODQsNjEuNDA0LTIuODM0LDQ5Ljk5OSw4LjYzMkMzOC41OTUtMi44MzQsMjAuMDU2LTIuODg0LDguNTkxLDguNTIyQy0yLjg3NCwxOS45MjUtMy4xNDIsMzguMzA2LDkuNDY3LDUwLjkxNw0KCUMyMy41NDEsNjQuOTksNDYuMDU4LDg3LjUxNyw0OS45OTksOTEuNDZ6Ii8+DQo8L3N2Zz4NCg==) no-repeat center center / 100%"></span>
-        <b>Blot</b><br />
-        A blogging platform with no interface.<br />
-        <a href="https://blot.im">blot.im</a>
+        <a href="https://blot.im">Blot</a> is a blogging platform which turns a folder into a blog.<br />
+
+    </p>
+
+
+    <p>
+        <span class="logo" style="background: url('data:image/svg+xml;base64,PHN2ZyBpZD0iaWNvbi1ub3RlIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDEyMCAxMjAiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPHJlY3QgeD0iMjguMTY1IiB5PSIxNy4zNiIgd2lkdGg9IjE4LjciIGhlaWdodD0iODMuNDU5Ii8+DQo8cmVjdCB4PSIxMDEuMzAxIiB5PSI0LjAyNyIgd2lkdGg9IjE4LjY5OSIgaGVpZ2h0PSI4NC40NTkiLz4NCjxwb2x5Z29uIHBvaW50cz0iMzMuMzgyLDQxLjY2NyAyOC4xNjUsMTcuMzcyIDEyMCwwIDEyMCwyMy43NSAiLz4NCjxlbGxpcHNlIGN4PSIyMy40MzMiIGN5PSIxMDAuODE5IiByeD0iMjMuNDMzIiByeT0iMTkuNTQ2Ii8+DQo8ZWxsaXBzZSBjeD0iOTYuNTY3IiBjeT0iODguNDg1IiByeD0iMjMuNDMzIiByeT0iMTkuNTQ2Ii8+DQo8L3N2Zz4=') no-repeat center center / 100%;"></span>
+        <a href="http://tuuune.com">Tuuune</a> is an app for finding obscure music.<br />
+
     </p>
 
     <p>
       <span class="logo" style="background: url('/rc.png') no-repeat center center / 100%"></span>
-        <b>randomColor.js</b><br />
-        A script for generating attractive colors.<br />
-        <a href="//randomcolor.llllll.li">randomcolor.llllll.li</a>
+        <a href="//randomcolor.llllll.li">randomColor.js</a> is a script for generating attractive colors.
     </p>
 
     <p>
         <span class="logo" style="background: url('/tp.png') no-repeat center center / 100%"></span>
-        <b>Typewriter</b><br />
-        A text editor for first drafts.<br />
-        <a href="//typewriter.llllll.li">typewriter.llllll.li</a>
+        <a href="//typewriter.llllll.li">Typewriter</a> is a text editor for first drafts.<br />
+
     </p>
 
     <p>
       <span class="logo" style="background: url('/typeset.png') no-repeat center center / 100%;"></span>
-      <b>Typeset</b><br />
-      A pre-proces­sor for web typography.<br />
-      <a href="//blot.im/typeset">blot.im/typeset</a>
+      <a href="//blot.im/typeset">Typeset</a>
+ is a pre-proces­sor for web typography.<br />
     </p>
 
-    <p>
-        <span class="logo" style="background: url('data:image/svg+xml;base64,PHN2ZyBpZD0iaWNvbi1ub3RlIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDEyMCAxMjAiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPHJlY3QgeD0iMjguMTY1IiB5PSIxNy4zNiIgd2lkdGg9IjE4LjciIGhlaWdodD0iODMuNDU5Ii8+DQo8cmVjdCB4PSIxMDEuMzAxIiB5PSI0LjAyNyIgd2lkdGg9IjE4LjY5OSIgaGVpZ2h0PSI4NC40NTkiLz4NCjxwb2x5Z29uIHBvaW50cz0iMzMuMzgyLDQxLjY2NyAyOC4xNjUsMTcuMzcyIDEyMCwwIDEyMCwyMy43NSAiLz4NCjxlbGxpcHNlIGN4PSIyMy40MzMiIGN5PSIxMDAuODE5IiByeD0iMjMuNDMzIiByeT0iMTkuNTQ2Ii8+DQo8ZWxsaXBzZSBjeD0iOTYuNTY3IiBjeT0iODguNDg1IiByeD0iMjMuNDMzIiByeT0iMTkuNTQ2Ii8+DQo8L3N2Zz4=') no-repeat center center / 100%;"></span>
-        <b>Tuuune</b><br />
-        An app which finds good obscure music.<br />
-        <a href="http://tuuune.com">tuuune.com</a>
-    </p>
     <p>
       <span class="logo" style="background: url('/public.png') no-repeat center center / 100%"></span>
-        <b>Public Icons</b><br />
-        A set of icons in the public domain.<br />
-        <a href="http://publicicons.org">publicicons.org</a>
+        <a href="http://publicicons.org">Public Icons</a> are a set of icons dedicated to the public domain.<br />
+
     </p>
-
-
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-8666188-9', 'llllll.li');
-      ga('send', 'pageview');
-    </script>
    </body>
 </html>
