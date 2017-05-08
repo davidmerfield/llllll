@@ -3,4 +3,6 @@ logs/http_error.log
 
 logs/main.log
 
-/sites
+/sites/randomColor
+/sites/typeset
+/sites/typewriter
